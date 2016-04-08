@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vQG-2h-9a6">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--首页-->
+        <scene sceneID="zIU-WG-k9d">
+            <objects>
+                <tableViewController id="Y10-U2-fwW" customClass="SMHomeVC" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="TF4-0s-tJP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="pcv-Ny-JPy">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="sunmofruit0" rowHeight="190" id="g5a-br-PV4">
+                                        <rect key="frame" x="0.0" y="64" width="375" height="190"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="g5a-br-PV4" id="brF-WZ-NoW">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="190"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pg0-Lr-Cyx">
+                                                    <rect key="frame" x="5" y="5" width="365" height="184.5"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="190" id="wU1-P2-fJ5"/>
+                                                    </constraints>
+                                                    <variation key="default">
+                                                        <mask key="constraints">
+                                                            <exclude reference="wU1-P2-fJ5"/>
+                                                        </mask>
+                                                    </variation>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="Pg0-Lr-Cyx" secondAttribute="bottom" id="IoT-rs-Hwj"/>
+                                                <constraint firstItem="Pg0-Lr-Cyx" firstAttribute="leading" secondItem="brF-WZ-NoW" secondAttribute="leading" constant="5" id="XZC-c3-SRa"/>
+                                                <constraint firstAttribute="trailing" secondItem="Pg0-Lr-Cyx" secondAttribute="trailing" constant="5" id="enz-fU-ADa"/>
+                                                <constraint firstItem="Pg0-Lr-Cyx" firstAttribute="top" secondItem="brF-WZ-NoW" secondAttribute="top" constant="5" id="ksC-I5-l5q"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="sunmofruit1" rowHeight="10" id="s9B-4x-MoQ">
+                                        <rect key="frame" x="0.0" y="254" width="375" height="10"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="s9B-4x-MoQ" id="kg2-s2-BDV">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="10"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="sunmofruit3" rowHeight="100" id="SuS-XF-CFd">
+                                        <rect key="frame" x="0.0" y="264" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SuS-XF-CFd" id="nX7-pB-wEu">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5zI-fo-tc0">
+                                                    <rect key="frame" x="5" y="0.0" width="365" height="100"/>
+                                                    <subviews>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zlX-gl-jgI">
+                                                            <rect key="frame" x="88" y="15" width="60" height="60"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="50" id="3CK-ub-C58"/>
+                                                                <constraint firstAttribute="height" constant="50" id="9wz-8u-Ogn"/>
+                                                            </constraints>
+                                                            <state key="normal" backgroundImage="sunmofruit_zhuanxuan"/>
+                                                            <variation key="default">
+                                                                <mask key="constraints">
+                                                                    <exclude reference="3CK-ub-C58"/>
+                                                                    <exclude reference="9wz-8u-Ogn"/>
+                                                                </mask>
+                                                            </variation>
+                                                        </button>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aWK-d6-uDP">
+                                                            <rect key="frame" x="163" y="15" width="60" height="60"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="50" id="9bD-1a-lLR"/>
+                                                                <constraint firstAttribute="height" constant="50" id="mgC-LF-aql"/>
+                                                            </constraints>
+                                                            <state key="normal" backgroundImage="sunmofruit_huida"/>
+                                                            <variation key="default">
+                                                                <mask key="constraints">
+                                                                    <exclude reference="9bD-1a-lLR"/>
+                                                                    <exclude reference="mgC-LF-aql"/>
+                                                                </mask>
+                                                            </variation>
+                                                        </button>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YzW-Hz-emN">
+                                                            <rect key="frame" x="238" y="15" width="60" height="60"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="50" id="KlH-6f-KbU"/>
+                                                                <constraint firstAttribute="width" constant="50" id="vt2-Nr-AX5"/>
+                                                            </constraints>
+                                                            <state key="normal" backgroundImage="sunmofruit_rexiao"/>
+                                                            <variation key="default">
+                                                                <mask key="constraints">
+                                                                    <exclude reference="KlH-6f-KbU"/>
+                                                                    <exclude reference="vt2-Nr-AX5"/>
+                                                                </mask>
+                                                            </variation>
+                                                        </button>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Gh-iO-EcO">
+                                                            <rect key="frame" x="13" y="15" width="60" height="60"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="60" id="CUN-tp-hFj"/>
+                                                                <constraint firstAttribute="width" constant="60" id="Xsj-MU-dbR"/>
+                                                            </constraints>
+                                                            <state key="normal" backgroundImage="sunmofruit_youxuan"/>
+                                                        </button>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="果兜优选" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HFX-yJ-fh8">
+                                                            <rect key="frame" x="15" y="80" width="56" height="17"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="果兜专选" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nYl-JS-SGa">
+                                                            <rect key="frame" x="90" y="80" width="56" height="17"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="果兜惠搭" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K0Z-Ax-OHZ">
+                                                            <rect key="frame" x="165" y="80" width="56" height="17"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="果兜热销" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="78s-B3-gRf">
+                                                            <rect key="frame" x="240" y="80" width="56" height="17"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstItem="zlX-gl-jgI" firstAttribute="top" secondItem="6Gh-iO-EcO" secondAttribute="top" id="1c3-k0-yfi"/>
+                                                        <constraint firstItem="78s-B3-gRf" firstAttribute="centerX" secondItem="YzW-Hz-emN" secondAttribute="centerX" id="2bL-Vc-eZr"/>
+                                                        <constraint firstItem="78s-B3-gRf" firstAttribute="top" secondItem="YzW-Hz-emN" secondAttribute="bottom" constant="5" id="5CT-YL-3wT"/>
+                                                        <constraint firstItem="YzW-Hz-emN" firstAttribute="height" secondItem="6Gh-iO-EcO" secondAttribute="height" id="Bss-dL-MIu"/>
+                                                        <constraint firstItem="zlX-gl-jgI" firstAttribute="height" secondItem="6Gh-iO-EcO" secondAttribute="height" id="CM4-7w-0KR"/>
+                                                        <constraint firstItem="zlX-gl-jgI" firstAttribute="leading" secondItem="6Gh-iO-EcO" secondAttribute="trailing" constant="15" id="Erm-k5-Ouw"/>
+                                                        <constraint firstItem="6Gh-iO-EcO" firstAttribute="leading" secondItem="5zI-fo-tc0" secondAttribute="leading" constant="13" id="J6I-HE-Roc"/>
+                                                        <constraint firstItem="YzW-Hz-emN" firstAttribute="width" secondItem="6Gh-iO-EcO" secondAttribute="width" id="KMG-lM-FtN"/>
+                                                        <constraint firstItem="nYl-JS-SGa" firstAttribute="centerX" secondItem="zlX-gl-jgI" secondAttribute="centerX" id="MsX-St-VOQ"/>
+                                                        <constraint firstItem="nYl-JS-SGa" firstAttribute="top" secondItem="zlX-gl-jgI" secondAttribute="bottom" constant="5" id="Muo-Gz-XSh"/>
+                                                        <constraint firstItem="aWK-d6-uDP" firstAttribute="width" secondItem="6Gh-iO-EcO" secondAttribute="width" id="Ng3-nK-ust"/>
+                                                        <constraint firstItem="zlX-gl-jgI" firstAttribute="width" secondItem="6Gh-iO-EcO" secondAttribute="width" id="Wdv-t6-rbx"/>
+                                                        <constraint firstItem="YzW-Hz-emN" firstAttribute="top" secondItem="6Gh-iO-EcO" secondAttribute="top" id="aku-kM-H8o"/>
+                                                        <constraint firstItem="aWK-d6-uDP" firstAttribute="leading" secondItem="zlX-gl-jgI" secondAttribute="trailing" constant="15" id="cxa-Hk-Wcy"/>
+                                                        <constraint firstItem="aWK-d6-uDP" firstAttribute="height" secondItem="6Gh-iO-EcO" secondAttribute="height" id="ecu-gH-DKA"/>
+                                                        <constraint firstItem="YzW-Hz-emN" firstAttribute="leading" secondItem="aWK-d6-uDP" secondAttribute="trailing" constant="15" id="mGl-SX-d3U"/>
+                                                        <constraint firstItem="HFX-yJ-fh8" firstAttribute="top" secondItem="6Gh-iO-EcO" secondAttribute="bottom" constant="5" id="nZ1-kE-81h"/>
+                                                        <constraint firstItem="K0Z-Ax-OHZ" firstAttribute="top" secondItem="aWK-d6-uDP" secondAttribute="bottom" constant="5" id="neF-73-c5c"/>
+                                                        <constraint firstItem="aWK-d6-uDP" firstAttribute="top" secondItem="6Gh-iO-EcO" secondAttribute="top" id="oGb-VO-Zmg"/>
+                                                        <constraint firstItem="K0Z-Ax-OHZ" firstAttribute="centerX" secondItem="aWK-d6-uDP" secondAttribute="centerX" id="qAb-g8-R9V"/>
+                                                        <constraint firstItem="6Gh-iO-EcO" firstAttribute="top" secondItem="5zI-fo-tc0" secondAttribute="top" constant="15" id="qVB-H3-Gb3"/>
+                                                        <constraint firstItem="HFX-yJ-fh8" firstAttribute="centerX" secondItem="6Gh-iO-EcO" secondAttribute="centerX" id="sUk-Fv-sH4"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="5zI-fo-tc0" firstAttribute="leading" secondItem="nX7-pB-wEu" secondAttribute="leading" constant="5" id="3zg-v5-mBY"/>
+                                                <constraint firstAttribute="trailing" secondItem="5zI-fo-tc0" secondAttribute="trailing" constant="5" id="5zr-2d-ZLK"/>
+                                                <constraint firstItem="5zI-fo-tc0" firstAttribute="top" secondItem="nX7-pB-wEu" secondAttribute="top" id="Agk-Bx-Z07"/>
+                                                <constraint firstAttribute="bottom" secondItem="5zI-fo-tc0" secondAttribute="bottom" id="L56-vt-8lX"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="sunmofruit4" rowHeight="30" id="11E-Ei-dE1">
+                                        <rect key="frame" x="0.0" y="364" width="375" height="30"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="11E-Ei-dE1" id="M1D-2U-aR0">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="果兜优选" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hhq-k5-8pQ">
+                                                    <rect key="frame" x="5" y="6.5" width="60" height="18"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="Hhq-k5-8pQ" firstAttribute="leading" secondItem="M1D-2U-aR0" secondAttribute="leading" constant="5" id="Hbv-aT-FBS"/>
+                                                <constraint firstItem="Hhq-k5-8pQ" firstAttribute="centerY" secondItem="M1D-2U-aR0" secondAttribute="centerY" id="L1j-Av-7P3"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="sunmofruit5" rowHeight="247" id="Dgk-Jz-wvq">
+                                        <rect key="frame" x="0.0" y="394" width="375" height="247"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Dgk-Jz-wvq" id="EB4-gF-6uu">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="247"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ONx-o2-gTS" customClass="SMGDYouXuanCollectionView">
+                                                    <rect key="frame" x="5" y="0.0" width="365" height="247"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="8" id="dBv-yG-2le">
+                                                        <size key="itemSize" width="151" height="151"/>
+                                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                    </collectionViewFlowLayout>
+                                                    <cells>
+                                                        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="GuoDouYouXuan" reuseIdentifier="GDYXCollectionCell" id="qPk-Sj-7II" customClass="GDYXCollectionViewCell">
+                                                            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                                                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                                                <autoresizingMask key="autoresizingMask"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                            </view>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                            <size key="customSize" width="150" height="150"/>
+                                                        </collectionViewCell>
+                                                    </cells>
+                                                </collectionView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="ONx-o2-gTS" secondAttribute="trailing" constant="5" id="7Ly-nf-imC"/>
+                                                <constraint firstAttribute="bottom" secondItem="ONx-o2-gTS" secondAttribute="bottom" id="Brn-rO-bKr"/>
+                                                <constraint firstItem="ONx-o2-gTS" firstAttribute="top" secondItem="EB4-gF-6uu" secondAttribute="top" id="a5j-so-etm"/>
+                                                <constraint firstItem="ONx-o2-gTS" firstAttribute="leading" secondItem="EB4-gF-6uu" secondAttribute="leading" constant="5" id="xbB-TL-SBg"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="Y10-U2-fwW" id="5j5-Mk-yrP"/>
+                            <outlet property="delegate" destination="Y10-U2-fwW" id="O60-Nu-6Nh"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="首页" id="hZe-7G-AQS">
+                        <barButtonItem key="leftBarButtonItem" id="Flw-PJ-Xw7">
+                            <view key="customView" alpha="0.01" contentMode="scaleToFill" id="L3E-wU-puX">
+                                <rect key="frame" x="16" y="5" width="83" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="473-qv-IIQ">
+                                        <rect key="frame" x="0.0" y="4" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="24" id="Ina-Ke-utI"/>
+                                            <constraint firstAttribute="height" constant="24" id="a2E-Cb-inD"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="location"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="校区" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qr1-oE-s0Z">
+                                        <rect key="frame" x="24" y="14" width="40" height="17"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="ygc-YG-Sie"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="473-qv-IIQ" firstAttribute="leading" secondItem="L3E-wU-puX" secondAttribute="leading" id="MGF-EO-bEc"/>
+                                    <constraint firstAttribute="bottom" secondItem="Qr1-oE-s0Z" secondAttribute="bottom" constant="2" id="Qrr-UP-Y4e"/>
+                                    <constraint firstItem="Qr1-oE-s0Z" firstAttribute="leading" secondItem="473-qv-IIQ" secondAttribute="trailing" id="WcR-UK-0fE"/>
+                                    <constraint firstItem="473-qv-IIQ" firstAttribute="centerY" secondItem="L3E-wU-puX" secondAttribute="centerY" id="dSl-DU-y9g"/>
+                                </constraints>
+                            </view>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="classify" id="SYv-u9-dLk">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                    <connections>
+                        <outlet property="YouXuanColletionView" destination="ONx-o2-gTS" id="W5k-Un-FN8"/>
+                        <outlet property="gdyxContentView" destination="EB4-gF-6uu" id="qLA-ir-c2q"/>
+                        <outlet property="layout" destination="dBv-yG-2le" id="wV1-4u-HHP"/>
+                        <outlet property="location" destination="Qr1-oE-s0Z" id="o5i-yb-UKx"/>
+                        <outlet property="topScrollView" destination="Pg0-Lr-Cyx" id="wee-Dh-134"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zwt-mB-jcq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="510.5" y="238.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="eaT-95-4ic">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vQG-2h-9a6" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rHm-F5-p1d">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y10-U2-fwW" kind="relationship" relationship="rootViewController" id="hwI-It-dYO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FNB-xs-n8b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-66" y="272"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="classify" width="24" height="24"/>
+        <image name="location" width="24" height="24"/>
+        <image name="sunmofruit_huida" width="100" height="100"/>
+        <image name="sunmofruit_rexiao" width="100" height="100"/>
+        <image name="sunmofruit_youxuan" width="100" height="100"/>
+        <image name="sunmofruit_zhuanxuan" width="100" height="100"/>
+    </resources>
+</document>
