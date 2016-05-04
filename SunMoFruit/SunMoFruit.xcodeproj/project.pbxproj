@@ -14,7 +14,6 @@
 		5A15BDE31C3AC4C000ADDB11 /* SunMoFruitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A15BDE21C3AC4C000ADDB11 /* SunMoFruitTests.m */; };
 		5A15BDEE1C3AC4C000ADDB11 /* SunMoFruitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A15BDED1C3AC4C000ADDB11 /* SunMoFruitUITests.m */; };
 		5A15BE4A1C3ACCCA00ADDB11 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A15BE491C3ACCCA00ADDB11 /* Home.storyboard */; };
-		5A15BE4C1C3ACCDD00ADDB11 /* VarityGoods.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A15BE4B1C3ACCDD00ADDB11 /* VarityGoods.storyboard */; };
 		5A15BE571C3ACF2000ADDB11 /* SMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A15BE561C3ACF2000ADDB11 /* SMTabBarController.m */; };
 		5A15BF461C3AD62700ADDB11 /* PersonCenter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A15BF451C3AD62700ADDB11 /* PersonCenter.storyboard */; };
 		5A15BF481C3AD63800ADDB11 /* ShoppingCart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A15BF471C3AD63800ADDB11 /* ShoppingCart.storyboard */; };
@@ -26,11 +25,15 @@
 		5A15BF681C3D4B5200ADDB11 /* GRBHomeHeadPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A15BF661C3D4B5200ADDB11 /* GRBHomeHeadPageView.m */; };
 		5A15BF691C3D4B5200ADDB11 /* GRBHomeHeadPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A15BF671C3D4B5200ADDB11 /* GRBHomeHeadPageView.xib */; };
 		5A15C0101C3E7BEE00ADDB11 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A15C00F1C3E7BEE00ADDB11 /* Contact.m */; };
+		5A2028FC1CD98D0900CECDE3 /* SMVarityGoodsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2028FB1CD98D0900CECDE3 /* SMVarityGoodsVC.m */; };
+		5A2028FF1CD9A14B00CECDE3 /* SMVarityGoodsTopViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2028FE1CD9A14B00CECDE3 /* SMVarityGoodsTopViewCell.m */; };
+		5A2029011CD9AFF900CECDE3 /* VarityGoodsTopViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A2029001CD9AFF900CECDE3 /* VarityGoodsTopViewCell.xib */; };
 		5A3A05991C4BCB9A00A04563 /* SMGDYouXuanCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3A05981C4BCB9A00A04563 /* SMGDYouXuanCollectionView.m */; };
 		5A3A05DD1C4E7AB000A04563 /* GDYXCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A3A05DC1C4E7AB000A04563 /* GDYXCollectionViewCell.xib */; };
 		5A3A05E01C4E7B9F00A04563 /* GDYXCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3A05DF1C4E7B9F00A04563 /* GDYXCollectionViewCell.m */; };
 		5A3A05E31C4FBDBF00A04563 /* SMYouXuanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3A05E21C4FBDBF00A04563 /* SMYouXuanModel.m */; };
 		5A3A05E71C4FC0DE00A04563 /* SMBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3A05E61C4FC0DE00A04563 /* SMBaseModel.m */; };
+		5A4EDFDC1CB90A1D00A38618 /* VarityGoods.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4EDFDB1CB90A1D00A38618 /* VarityGoods.storyboard */; };
 		C41FE698B8C2962130E5CB25 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3888E88A1E43266EEE1735 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -67,7 +70,6 @@
 		5A15BDED1C3AC4C000ADDB11 /* SunMoFruitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunMoFruitUITests.m; sourceTree = "<group>"; };
 		5A15BDEF1C3AC4C000ADDB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A15BE491C3ACCCA00ADDB11 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
-		5A15BE4B1C3ACCDD00ADDB11 /* VarityGoods.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VarityGoods.storyboard; sourceTree = "<group>"; };
 		5A15BE551C3ACF2000ADDB11 /* SMTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMTabBarController.h; sourceTree = "<group>"; };
 		5A15BE561C3ACF2000ADDB11 /* SMTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMTabBarController.m; sourceTree = "<group>"; };
 		5A15BF451C3AD62700ADDB11 /* PersonCenter.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PersonCenter.storyboard; sourceTree = "<group>"; };
@@ -86,6 +88,11 @@
 		5A15BF661C3D4B5200ADDB11 /* GRBHomeHeadPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRBHomeHeadPageView.m; sourceTree = "<group>"; };
 		5A15BF671C3D4B5200ADDB11 /* GRBHomeHeadPageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GRBHomeHeadPageView.xib; sourceTree = "<group>"; };
 		5A15C00F1C3E7BEE00ADDB11 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		5A2028FA1CD98D0900CECDE3 /* SMVarityGoodsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMVarityGoodsVC.h; sourceTree = "<group>"; };
+		5A2028FB1CD98D0900CECDE3 /* SMVarityGoodsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMVarityGoodsVC.m; sourceTree = "<group>"; };
+		5A2028FD1CD9A14B00CECDE3 /* SMVarityGoodsTopViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMVarityGoodsTopViewCell.h; sourceTree = "<group>"; };
+		5A2028FE1CD9A14B00CECDE3 /* SMVarityGoodsTopViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMVarityGoodsTopViewCell.m; sourceTree = "<group>"; };
+		5A2029001CD9AFF900CECDE3 /* VarityGoodsTopViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VarityGoodsTopViewCell.xib; sourceTree = "<group>"; };
 		5A3A05971C4BCB9A00A04563 /* SMGDYouXuanCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMGDYouXuanCollectionView.h; sourceTree = "<group>"; };
 		5A3A05981C4BCB9A00A04563 /* SMGDYouXuanCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMGDYouXuanCollectionView.m; sourceTree = "<group>"; };
 		5A3A05DC1C4E7AB000A04563 /* GDYXCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDYXCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -95,6 +102,7 @@
 		5A3A05E21C4FBDBF00A04563 /* SMYouXuanModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMYouXuanModel.m; sourceTree = "<group>"; };
 		5A3A05E51C4FC0DE00A04563 /* SMBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMBaseModel.h; sourceTree = "<group>"; };
 		5A3A05E61C4FC0DE00A04563 /* SMBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMBaseModel.m; sourceTree = "<group>"; };
+		5A4EDFDB1CB90A1D00A38618 /* VarityGoods.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VarityGoods.storyboard; sourceTree = "<group>"; };
 		7C5BF904A6CA60FA24AFAD03 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CC3888E88A1E43266EEE1735 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -261,7 +269,7 @@
 				5A15BE461C3ACC4900ADDB11 /* Controller */,
 				5A15BE471C3ACC4900ADDB11 /* Model */,
 				5A15BE481C3ACC4900ADDB11 /* View */,
-				5A15BE4B1C3ACCDD00ADDB11 /* VarityGoods.storyboard */,
+				5A4EDFDB1CB90A1D00A38618 /* VarityGoods.storyboard */,
 			);
 			name = "VarityGoods(小吃包)";
 			path = VarityGoods;
@@ -270,6 +278,8 @@
 		5A15BE461C3ACC4900ADDB11 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5A2028FA1CD98D0900CECDE3 /* SMVarityGoodsVC.h */,
+				5A2028FB1CD98D0900CECDE3 /* SMVarityGoodsVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -284,6 +294,9 @@
 		5A15BE481C3ACC4900ADDB11 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5A2029001CD9AFF900CECDE3 /* VarityGoodsTopViewCell.xib */,
+				5A2028FD1CD9A14B00CECDE3 /* SMVarityGoodsTopViewCell.h */,
+				5A2028FE1CD9A14B00CECDE3 /* SMVarityGoodsTopViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -554,9 +567,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A15BF511C3CE57900ADDB11 /* Main.storyboard in Resources */,
-				5A15BE4C1C3ACCDD00ADDB11 /* VarityGoods.storyboard in Resources */,
 				5A15BE4A1C3ACCCA00ADDB11 /* Home.storyboard in Resources */,
+				5A4EDFDC1CB90A1D00A38618 /* VarityGoods.storyboard in Resources */,
 				5A15BDD81C3AC4C000ADDB11 /* LaunchScreen.storyboard in Resources */,
+				5A2029011CD9AFF900CECDE3 /* VarityGoodsTopViewCell.xib in Resources */,
 				5A15BF461C3AD62700ADDB11 /* PersonCenter.storyboard in Resources */,
 				5A15BF481C3AD63800ADDB11 /* ShoppingCart.storyboard in Resources */,
 				5A3A05DD1C4E7AB000A04563 /* GDYXCollectionViewCell.xib in Resources */,
@@ -634,6 +648,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A2028FF1CD9A14B00CECDE3 /* SMVarityGoodsTopViewCell.m in Sources */,
 				5A15BE571C3ACF2000ADDB11 /* SMTabBarController.m in Sources */,
 				5A15BF4E1C3CDC6D00ADDB11 /* SMTabBar.m in Sources */,
 				5A3A05E01C4E7B9F00A04563 /* GDYXCollectionViewCell.m in Sources */,
@@ -642,6 +657,7 @@
 				5A15BF641C3D39C000ADDB11 /* UIImage+Ex.m in Sources */,
 				5A15BDCD1C3AC4BF00ADDB11 /* AppDelegate.m in Sources */,
 				5A15BF681C3D4B5200ADDB11 /* GRBHomeHeadPageView.m in Sources */,
+				5A2028FC1CD98D0900CECDE3 /* SMVarityGoodsVC.m in Sources */,
 				5A3A05991C4BCB9A00A04563 /* SMGDYouXuanCollectionView.m in Sources */,
 				5A3A05E31C4FBDBF00A04563 /* SMYouXuanModel.m in Sources */,
 				5A15C0101C3E7BEE00ADDB11 /* Contact.m in Sources */,
