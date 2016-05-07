@@ -12,8 +12,8 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="TF4-0s-tJP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.86666666670000003" green="0.87058823529999996" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.86666666670000003" green="0.87058823529999996" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
                         <sections>
                             <tableViewSection id="pcv-Ny-JPy">
                                 <cells>
@@ -37,7 +37,7 @@
                                                     </variation>
                                                 </view>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="0.86666666670000003" green="0.87058823529999996" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="bottom" secondItem="Pg0-Lr-Cyx" secondAttribute="bottom" id="IoT-rs-Hwj"/>
                                                 <constraint firstItem="Pg0-Lr-Cyx" firstAttribute="leading" secondItem="brF-WZ-NoW" secondAttribute="leading" constant="5" id="XZC-c3-SRa"/>
@@ -52,7 +52,7 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="s9B-4x-MoQ" id="kg2-s2-BDV">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="10"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="0.86666666670000003" green="0.87058823529999996" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="sunmofruit3" rowHeight="100" id="SuS-XF-CFd">
@@ -167,7 +167,7 @@
                                                     </constraints>
                                                 </view>
                                             </subviews>
-                                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="backgroundColor" red="0.86666666670000003" green="0.87058823529999996" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstItem="5zI-fo-tc0" firstAttribute="leading" secondItem="nX7-pB-wEu" secondAttribute="leading" constant="5" id="3zg-v5-mBY"/>
                                                 <constraint firstAttribute="trailing" secondItem="5zI-fo-tc0" secondAttribute="trailing" constant="5" id="5zr-2d-ZLK"/>
@@ -190,7 +190,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
-                                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="backgroundColor" red="0.86666666670000003" green="0.87058823529999996" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstItem="Hhq-k5-8pQ" firstAttribute="leading" secondItem="M1D-2U-aR0" secondAttribute="leading" constant="5" id="Hbv-aT-FBS"/>
                                                 <constraint firstItem="Hhq-k5-8pQ" firstAttribute="centerY" secondItem="M1D-2U-aR0" secondAttribute="centerY" id="L1j-Av-7P3"/>
@@ -206,10 +206,10 @@
                                             <subviews>
                                                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ONx-o2-gTS" customClass="SMGDYouXuanCollectionView">
                                                     <rect key="frame" x="5" y="0.0" width="365" height="247"/>
-                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <color key="backgroundColor" red="0.86666666670000003" green="0.87058823529999996" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="tintColor" red="0.86666666670000003" green="0.87058823529999996" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="8" id="dBv-yG-2le">
-                                                        <size key="itemSize" width="151" height="151"/>
+                                                        <size key="itemSize" width="151" height="150"/>
                                                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                                         <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                                         <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -223,13 +223,13 @@
                                                                 <autoresizingMask key="autoresizingMask"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                             </view>
-                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                            <color key="backgroundColor" red="0.86666666670000003" green="0.87058823529999996" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <size key="customSize" width="150" height="150"/>
                                                         </collectionViewCell>
                                                     </cells>
                                                 </collectionView>
                                             </subviews>
-                                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="backgroundColor" red="0.86666666670000003" green="0.87058823529999996" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="ONx-o2-gTS" secondAttribute="trailing" constant="5" id="7Ly-nf-imC"/>
                                                 <constraint firstAttribute="bottom" secondItem="ONx-o2-gTS" secondAttribute="bottom" id="Brn-rO-bKr"/>
@@ -237,6 +237,7 @@
                                                 <constraint firstItem="ONx-o2-gTS" firstAttribute="leading" secondItem="EB4-gF-6uu" secondAttribute="leading" constant="5" id="xbB-TL-SBg"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.86666666670000003" green="0.87058823529999996" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>

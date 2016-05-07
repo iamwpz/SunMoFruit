@@ -11,6 +11,8 @@
 
 @interface GDYXCollectionViewCell ()
 
+@property (weak, nonatomic) IBOutlet UILabel *fruitName;
+
 @property (weak, nonatomic) IBOutlet UIImageView *fruitPicture;
 
 @property (weak, nonatomic) IBOutlet UILabel *priceLabel;
@@ -46,6 +48,7 @@
     
     self.priceLabel.text = [NSString stringWithFormat:@"¥ %.2lf/份",_gdyxModel.fruitsPrice];
     self.youhuiLabel.text = _gdyxModel.discountDescribe;
+    self.fruitName.text = _gdyxModel.goodsName;
     
     
 }

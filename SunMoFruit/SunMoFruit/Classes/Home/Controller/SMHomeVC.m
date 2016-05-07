@@ -38,7 +38,6 @@
         
     self.tableView.delegate = self;
     
-    
 }
 
 - (void)didReceiveMemoryWarning {

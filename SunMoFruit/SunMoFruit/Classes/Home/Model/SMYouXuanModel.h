@@ -43,5 +43,5 @@
  * 打折信息
  */
 @property (nonatomic, copy) NSString *discountDescribe;
-//- (NSString *)description;
+- (NSString *)description;
 @end

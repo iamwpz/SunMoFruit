@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		5A15BDCA1C3AC4BF00ADDB11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A15BDC91C3AC4BF00ADDB11 /* main.m */; };
 		5A15BDCD1C3AC4BF00ADDB11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A15BDCC1C3AC4BF00ADDB11 /* AppDelegate.m */; };
-		5A15BDD51C3AC4C000ADDB11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A15BDD41C3AC4C000ADDB11 /* Assets.xcassets */; };
 		5A15BDD81C3AC4C000ADDB11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A15BDD61C3AC4C000ADDB11 /* LaunchScreen.storyboard */; };
 		5A15BDE31C3AC4C000ADDB11 /* SunMoFruitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A15BDE21C3AC4C000ADDB11 /* SunMoFruitTests.m */; };
 		5A15BDEE1C3AC4C000ADDB11 /* SunMoFruitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A15BDED1C3AC4C000ADDB11 /* SunMoFruitUITests.m */; };
@@ -26,14 +25,17 @@
 		5A15BF691C3D4B5200ADDB11 /* GRBHomeHeadPageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A15BF671C3D4B5200ADDB11 /* GRBHomeHeadPageView.xib */; };
 		5A15C0101C3E7BEE00ADDB11 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A15C00F1C3E7BEE00ADDB11 /* Contact.m */; };
 		5A2028FC1CD98D0900CECDE3 /* SMVarityGoodsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2028FB1CD98D0900CECDE3 /* SMVarityGoodsVC.m */; };
-		5A2028FF1CD9A14B00CECDE3 /* SMVarityGoodsTopViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2028FE1CD9A14B00CECDE3 /* SMVarityGoodsTopViewCell.m */; };
-		5A2029011CD9AFF900CECDE3 /* VarityGoodsTopViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A2029001CD9AFF900CECDE3 /* VarityGoodsTopViewCell.xib */; };
 		5A3A05991C4BCB9A00A04563 /* SMGDYouXuanCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3A05981C4BCB9A00A04563 /* SMGDYouXuanCollectionView.m */; };
 		5A3A05DD1C4E7AB000A04563 /* GDYXCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A3A05DC1C4E7AB000A04563 /* GDYXCollectionViewCell.xib */; };
 		5A3A05E01C4E7B9F00A04563 /* GDYXCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3A05DF1C4E7B9F00A04563 /* GDYXCollectionViewCell.m */; };
 		5A3A05E31C4FBDBF00A04563 /* SMYouXuanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3A05E21C4FBDBF00A04563 /* SMYouXuanModel.m */; };
 		5A3A05E71C4FC0DE00A04563 /* SMBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3A05E61C4FC0DE00A04563 /* SMBaseModel.m */; };
 		5A4EDFDC1CB90A1D00A38618 /* VarityGoods.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4EDFDB1CB90A1D00A38618 /* VarityGoods.storyboard */; };
+		5A6AAE641CDDFDB200E93E54 /* SMVarityGoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6AAE631CDDFDB200E93E54 /* SMVarityGoodsModel.m */; };
+		5A6AAE661CDE026B00E93E54 /* VarityGoodsCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A6AAE651CDE026B00E93E54 /* VarityGoodsCollectionCell.xib */; };
+		5A6AAE691CDE030400E93E54 /* VarityGoodsCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6AAE681CDE030400E93E54 /* VarityGoodsCollectionCell.m */; };
+		5A6AAE6C1CDE089B00E93E54 /* SMRoastingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6AAE6B1CDE089B00E93E54 /* SMRoastingCollectionView.m */; };
+		5AB1C83B1CDC3E2C00503DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AB1C83A1CDC3E2C00503DA9 /* Assets.xcassets */; };
 		C41FE698B8C2962130E5CB25 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3888E88A1E43266EEE1735 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +62,6 @@
 		5A15BDC91C3AC4BF00ADDB11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5A15BDCB1C3AC4BF00ADDB11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5A15BDCC1C3AC4BF00ADDB11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5A15BDD41C3AC4C000ADDB11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A15BDD71C3AC4C000ADDB11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A15BDD91C3AC4C000ADDB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A15BDDE1C3AC4C000ADDB11 /* SunMoFruitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunMoFruitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,9 +91,6 @@
 		5A15C00F1C3E7BEE00ADDB11 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
 		5A2028FA1CD98D0900CECDE3 /* SMVarityGoodsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMVarityGoodsVC.h; sourceTree = "<group>"; };
 		5A2028FB1CD98D0900CECDE3 /* SMVarityGoodsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMVarityGoodsVC.m; sourceTree = "<group>"; };
-		5A2028FD1CD9A14B00CECDE3 /* SMVarityGoodsTopViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMVarityGoodsTopViewCell.h; sourceTree = "<group>"; };
-		5A2028FE1CD9A14B00CECDE3 /* SMVarityGoodsTopViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMVarityGoodsTopViewCell.m; sourceTree = "<group>"; };
-		5A2029001CD9AFF900CECDE3 /* VarityGoodsTopViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VarityGoodsTopViewCell.xib; sourceTree = "<group>"; };
 		5A3A05971C4BCB9A00A04563 /* SMGDYouXuanCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMGDYouXuanCollectionView.h; sourceTree = "<group>"; };
 		5A3A05981C4BCB9A00A04563 /* SMGDYouXuanCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMGDYouXuanCollectionView.m; sourceTree = "<group>"; };
 		5A3A05DC1C4E7AB000A04563 /* GDYXCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDYXCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -103,6 +101,14 @@
 		5A3A05E51C4FC0DE00A04563 /* SMBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMBaseModel.h; sourceTree = "<group>"; };
 		5A3A05E61C4FC0DE00A04563 /* SMBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMBaseModel.m; sourceTree = "<group>"; };
 		5A4EDFDB1CB90A1D00A38618 /* VarityGoods.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VarityGoods.storyboard; sourceTree = "<group>"; };
+		5A6AAE621CDDFDB200E93E54 /* SMVarityGoodsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMVarityGoodsModel.h; sourceTree = "<group>"; };
+		5A6AAE631CDDFDB200E93E54 /* SMVarityGoodsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMVarityGoodsModel.m; sourceTree = "<group>"; };
+		5A6AAE651CDE026B00E93E54 /* VarityGoodsCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VarityGoodsCollectionCell.xib; sourceTree = "<group>"; };
+		5A6AAE671CDE030400E93E54 /* VarityGoodsCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VarityGoodsCollectionCell.h; sourceTree = "<group>"; };
+		5A6AAE681CDE030400E93E54 /* VarityGoodsCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VarityGoodsCollectionCell.m; sourceTree = "<group>"; };
+		5A6AAE6A1CDE089B00E93E54 /* SMRoastingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMRoastingCollectionView.h; sourceTree = "<group>"; };
+		5A6AAE6B1CDE089B00E93E54 /* SMRoastingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMRoastingCollectionView.m; sourceTree = "<group>"; };
+		5AB1C83A1CDC3E2C00503DA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C5BF904A6CA60FA24AFAD03 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CC3888E88A1E43266EEE1735 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -164,9 +170,9 @@
 				5A15BDCB1C3AC4BF00ADDB11 /* AppDelegate.h */,
 				5A15BDCC1C3AC4BF00ADDB11 /* AppDelegate.m */,
 				5A15BF501C3CE57900ADDB11 /* Main.storyboard */,
-				5A15BDD41C3AC4C000ADDB11 /* Assets.xcassets */,
 				5A15BDD61C3AC4C000ADDB11 /* LaunchScreen.storyboard */,
 				5A15BDD91C3AC4C000ADDB11 /* Info.plist */,
+				5AB1C83A1CDC3E2C00503DA9 /* Assets.xcassets */,
 				5A15BDC81C3AC4BF00ADDB11 /* Supporting Files */,
 			);
 			path = SunMoFruit;
@@ -287,6 +293,8 @@
 		5A15BE471C3ACC4900ADDB11 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5A6AAE621CDDFDB200E93E54 /* SMVarityGoodsModel.h */,
+				5A6AAE631CDDFDB200E93E54 /* SMVarityGoodsModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -294,9 +302,11 @@
 		5A15BE481C3ACC4900ADDB11 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				5A2029001CD9AFF900CECDE3 /* VarityGoodsTopViewCell.xib */,
-				5A2028FD1CD9A14B00CECDE3 /* SMVarityGoodsTopViewCell.h */,
-				5A2028FE1CD9A14B00CECDE3 /* SMVarityGoodsTopViewCell.m */,
+				5A6AAE651CDE026B00E93E54 /* VarityGoodsCollectionCell.xib */,
+				5A6AAE671CDE030400E93E54 /* VarityGoodsCollectionCell.h */,
+				5A6AAE681CDE030400E93E54 /* VarityGoodsCollectionCell.m */,
+				5A6AAE6A1CDE089B00E93E54 /* SMRoastingCollectionView.h */,
+				5A6AAE6B1CDE089B00E93E54 /* SMRoastingCollectionView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -529,7 +539,7 @@
 				TargetAttributes = {
 					5A15BDC41C3AC4BF00ADDB11 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = X6R8Y9H6QQ;
+						DevelopmentTeam = ZS97J2PFPF;
 					};
 					5A15BDDD1C3AC4C000ADDB11 = {
 						CreatedOnToolsVersion = 7.2;
@@ -568,14 +578,14 @@
 			files = (
 				5A15BF511C3CE57900ADDB11 /* Main.storyboard in Resources */,
 				5A15BE4A1C3ACCCA00ADDB11 /* Home.storyboard in Resources */,
+				5AB1C83B1CDC3E2C00503DA9 /* Assets.xcassets in Resources */,
 				5A4EDFDC1CB90A1D00A38618 /* VarityGoods.storyboard in Resources */,
 				5A15BDD81C3AC4C000ADDB11 /* LaunchScreen.storyboard in Resources */,
-				5A2029011CD9AFF900CECDE3 /* VarityGoodsTopViewCell.xib in Resources */,
+				5A6AAE661CDE026B00E93E54 /* VarityGoodsCollectionCell.xib in Resources */,
 				5A15BF461C3AD62700ADDB11 /* PersonCenter.storyboard in Resources */,
 				5A15BF481C3AD63800ADDB11 /* ShoppingCart.storyboard in Resources */,
 				5A3A05DD1C4E7AB000A04563 /* GDYXCollectionViewCell.xib in Resources */,
 				5A15BF691C3D4B5200ADDB11 /* GRBHomeHeadPageView.xib in Resources */,
-				5A15BDD51C3AC4C000ADDB11 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -648,7 +658,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A2028FF1CD9A14B00CECDE3 /* SMVarityGoodsTopViewCell.m in Sources */,
 				5A15BE571C3ACF2000ADDB11 /* SMTabBarController.m in Sources */,
 				5A15BF4E1C3CDC6D00ADDB11 /* SMTabBar.m in Sources */,
 				5A3A05E01C4E7B9F00A04563 /* GDYXCollectionViewCell.m in Sources */,
@@ -659,8 +668,11 @@
 				5A15BF681C3D4B5200ADDB11 /* GRBHomeHeadPageView.m in Sources */,
 				5A2028FC1CD98D0900CECDE3 /* SMVarityGoodsVC.m in Sources */,
 				5A3A05991C4BCB9A00A04563 /* SMGDYouXuanCollectionView.m in Sources */,
+				5A6AAE641CDDFDB200E93E54 /* SMVarityGoodsModel.m in Sources */,
 				5A3A05E31C4FBDBF00A04563 /* SMYouXuanModel.m in Sources */,
 				5A15C0101C3E7BEE00ADDB11 /* Contact.m in Sources */,
+				5A6AAE6C1CDE089B00E93E54 /* SMRoastingCollectionView.m in Sources */,
+				5A6AAE691CDE030400E93E54 /* VarityGoodsCollectionCell.m in Sources */,
 				5A3A05E71C4FC0DE00A04563 /* SMBaseModel.m in Sources */,
 				5A15BDCA1C3AC4BF00ADDB11 /* main.m in Sources */,
 			);
@@ -798,12 +810,13 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SunMoFruit/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hunter.SunMoFruit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = NO;
 			};
 			name = Debug;
@@ -817,12 +830,13 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SunMoFruit/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hunter.SunMoFruit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

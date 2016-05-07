@@ -3,6 +3,9 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -23,21 +26,218 @@
             </objects>
             <point key="canvasLocation" x="621" y="152"/>
         </scene>
-        <!--Varity GoodsVC-->
+        <!--小吃包-->
         <scene sceneID="qLH-yh-jVN">
             <objects>
                 <tableViewController id="K84-aF-3uq" customClass="SMVarityGoodsVC" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="J1K-Up-ohB">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="J1K-Up-ohB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <sections/>
+                        <color key="backgroundColor" red="0.86666666670000003" green="0.87058823529999996" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.86666666670000003" green="0.87058823529999996" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <sections>
+                            <tableViewSection id="7Jo-QM-c71">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="VGTopViewCellId" rowHeight="210" id="QaF-02-2rh" customClass="SMVarityGoodsTopViewCell">
+                                        <rect key="frame" x="0.0" y="64" width="375" height="210"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QaF-02-2rh" id="zGO-Y4-J5t">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="209.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MH1-6x-vU8">
+                                                    <rect key="frame" x="265" y="5" width="105" height="100"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <state key="normal" backgroundImage="vg_casual_snacks"/>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d8a-oa-iYm">
+                                                    <rect key="frame" x="155" y="110" width="215" height="95"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <state key="normal" backgroundImage="vg_roasting"/>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Guk-ua-FV4">
+                                                    <rect key="frame" x="155" y="5" width="105" height="100"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <state key="normal" backgroundImage="vg_fast_food_meat"/>
+                                                </button>
+                                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JNx-pE-5ik">
+                                                    <rect key="frame" x="5" y="5" width="145" height="200"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <inset key="imageEdgeInsets" minX="5" minY="5" maxX="0.0" maxY="0.0"/>
+                                                    <state key="normal" backgroundImage="vg_hotsell">
+                                                        <color key="titleColor" red="0.8666666666666667" green="0.87058823529411766" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.8666666666666667" green="0.87058823529411766" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="JNx-pE-5ik" firstAttribute="leading" secondItem="zGO-Y4-J5t" secondAttribute="leadingMargin" constant="-3" id="1MU-vB-bwP"/>
+                                                <constraint firstItem="Guk-ua-FV4" firstAttribute="height" secondItem="MH1-6x-vU8" secondAttribute="height" id="346-3m-hlh"/>
+                                                <constraint firstItem="Guk-ua-FV4" firstAttribute="leading" secondItem="JNx-pE-5ik" secondAttribute="trailing" constant="5" id="49a-R5-tJe"/>
+                                                <constraint firstItem="Guk-ua-FV4" firstAttribute="top" secondItem="zGO-Y4-J5t" secondAttribute="topMargin" constant="-3" id="562-0z-EIZ"/>
+                                                <constraint firstItem="MH1-6x-vU8" firstAttribute="height" secondItem="zGO-Y4-J5t" secondAttribute="height" multiplier="0.475" id="Ahh-gK-JVR"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="d8a-oa-iYm" secondAttribute="bottom" constant="-3" id="BkB-Zh-FL6"/>
+                                                <constraint firstItem="Guk-ua-FV4" firstAttribute="width" secondItem="MH1-6x-vU8" secondAttribute="width" id="c3E-19-OSq"/>
+                                                <constraint firstItem="JNx-pE-5ik" firstAttribute="top" secondItem="zGO-Y4-J5t" secondAttribute="topMargin" constant="-3" id="fgI-yT-SL9"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="d8a-oa-iYm" secondAttribute="trailing" constant="-3" id="g3E-TC-y0z"/>
+                                                <constraint firstItem="MH1-6x-vU8" firstAttribute="top" secondItem="zGO-Y4-J5t" secondAttribute="topMargin" constant="-3" id="gF3-tW-wGO"/>
+                                                <constraint firstItem="MH1-6x-vU8" firstAttribute="width" secondItem="Guk-ua-FV4" secondAttribute="height" multiplier="1:1" id="hLO-BN-ooN"/>
+                                                <constraint firstItem="d8a-oa-iYm" firstAttribute="leading" secondItem="JNx-pE-5ik" secondAttribute="trailing" constant="5" id="jU6-6b-sJz"/>
+                                                <constraint firstItem="MH1-6x-vU8" firstAttribute="leading" secondItem="Guk-ua-FV4" secondAttribute="trailing" constant="5" id="kQm-jj-9v1"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="MH1-6x-vU8" secondAttribute="trailing" constant="-3" id="kad-i0-q2Q"/>
+                                                <constraint firstItem="Guk-ua-FV4" firstAttribute="width" secondItem="MH1-6x-vU8" secondAttribute="height" multiplier="1:1" id="pNh-ne-IC5"/>
+                                                <constraint firstItem="MH1-6x-vU8" firstAttribute="width" secondItem="zGO-Y4-J5t" secondAttribute="width" multiplier="0.28" id="t5D-gF-A6y"/>
+                                                <constraint firstItem="JNx-pE-5ik" firstAttribute="bottom" secondItem="zGO-Y4-J5t" secondAttribute="bottomMargin" constant="3" id="vqO-f1-i0C"/>
+                                                <constraint firstItem="d8a-oa-iYm" firstAttribute="top" secondItem="Guk-ua-FV4" secondAttribute="bottom" constant="5" id="zg9-hq-g7N"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="pNh-ne-IC5"/>
+                                                    <exclude reference="hLO-BN-ooN"/>
+                                                </mask>
+                                            </variation>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="VGTopViewCellId" rowHeight="50" id="OJn-Db-z5o" customClass="SMVarityGoodsTopViewCell">
+                                        <rect key="frame" x="0.0" y="274" width="375" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OJn-Db-z5o" id="jok-gs-pNk">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hOt-Ug-mDL">
+                                                    <rect key="frame" x="5" y="0.0" width="365" height="50"/>
+                                                    <subviews>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fenjiexian" translatesAutoresizingMaskIntoConstraints="NO" id="ieI-7N-9XS">
+                                                            <rect key="frame" x="-8" y="0.0" width="381" height="10"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="10" id="Jrd-LR-jmk"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="果兜买一送一无限期啦" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Q5-P3-jci">
+                                                            <rect key="frame" x="90" y="11" width="110" height="28"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vg_headline" translatesAutoresizingMaskIntoConstraints="NO" id="ja1-rR-XB2">
+                                                            <rect key="frame" x="10" y="0.0" width="50" height="50"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="50" id="3Sn-Zx-z3V"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <constraints>
+                                                        <constraint firstItem="ja1-rR-XB2" firstAttribute="top" secondItem="hOt-Ug-mDL" secondAttribute="top" id="2uf-lt-TDN"/>
+                                                        <constraint firstItem="2Q5-P3-jci" firstAttribute="centerY" secondItem="ja1-rR-XB2" secondAttribute="centerY" id="7V9-LY-A9T"/>
+                                                        <constraint firstAttribute="trailing" secondItem="ieI-7N-9XS" secondAttribute="trailing" constant="-8" id="B6l-CH-nfP"/>
+                                                        <constraint firstAttribute="bottom" secondItem="2Q5-P3-jci" secondAttribute="bottom" constant="11" id="CbH-wZ-xaE"/>
+                                                        <constraint firstItem="ieI-7N-9XS" firstAttribute="top" secondItem="hOt-Ug-mDL" secondAttribute="top" id="H5E-uT-ONa"/>
+                                                        <constraint firstItem="ja1-rR-XB2" firstAttribute="leading" secondItem="hOt-Ug-mDL" secondAttribute="leading" constant="10" id="Xn1-Gn-NEF"/>
+                                                        <constraint firstItem="ja1-rR-XB2" firstAttribute="top" secondItem="ieI-7N-9XS" secondAttribute="bottom" id="a1j-D8-jKE"/>
+                                                        <constraint firstItem="ieI-7N-9XS" firstAttribute="leading" secondItem="hOt-Ug-mDL" secondAttribute="leading" constant="-8" id="ala-0S-5tJ"/>
+                                                        <constraint firstItem="2Q5-P3-jci" firstAttribute="top" secondItem="ieI-7N-9XS" secondAttribute="bottom" id="bn0-u8-2Iv"/>
+                                                        <constraint firstAttribute="bottom" secondItem="ja1-rR-XB2" secondAttribute="bottom" id="gnH-XF-RZ9"/>
+                                                        <constraint firstItem="2Q5-P3-jci" firstAttribute="leading" secondItem="ja1-rR-XB2" secondAttribute="trailing" constant="30" id="jJM-v3-VAS"/>
+                                                    </constraints>
+                                                    <variation key="default">
+                                                        <mask key="constraints">
+                                                            <exclude reference="a1j-D8-jKE"/>
+                                                            <exclude reference="bn0-u8-2Iv"/>
+                                                        </mask>
+                                                    </variation>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.86666666670000003" green="0.87058823529999996" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="hOt-Ug-mDL" firstAttribute="leading" secondItem="jok-gs-pNk" secondAttribute="leading" constant="5" id="PoJ-hB-MQC"/>
+                                                <constraint firstAttribute="bottom" secondItem="hOt-Ug-mDL" secondAttribute="bottom" id="TNj-Yl-1ct"/>
+                                                <constraint firstItem="hOt-Ug-mDL" firstAttribute="top" secondItem="jok-gs-pNk" secondAttribute="top" id="dzx-KR-dL5"/>
+                                                <constraint firstAttribute="trailing" secondItem="hOt-Ug-mDL" secondAttribute="trailing" constant="5" id="lmL-1p-tIt"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="VGTopViewCellId" rowHeight="30" id="DKr-CY-0yc" customClass="SMVarityGoodsTopViewCell">
+                                        <rect key="frame" x="0.0" y="324" width="375" height="30"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DKr-CY-0yc" id="A6v-bs-spR">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="坚果炒货" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Szk-Hl-HOy">
+                                                    <rect key="frame" x="8" y="7" width="56" height="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.86666666670000003" green="0.87058823529999996" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="Szk-Hl-HOy" firstAttribute="leading" secondItem="A6v-bs-spR" secondAttribute="leading" constant="8" id="12a-L6-oHT"/>
+                                                <constraint firstItem="Szk-Hl-HOy" firstAttribute="centerY" secondItem="A6v-bs-spR" secondAttribute="centerY" id="e4d-4e-k6T"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="VGTopViewCellId" rowHeight="314" id="PT6-0K-45b" customClass="SMVarityGoodsTopViewCell">
+                                        <rect key="frame" x="0.0" y="354" width="375" height="314"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PT6-0K-45b" id="tN4-sv-Y15">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="314"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="9M9-8J-xiO" customClass="SMRoastingCollectionView">
+                                                    <rect key="frame" x="5" y="0.0" width="365" height="314"/>
+                                                    <color key="backgroundColor" red="0.86666666670000003" green="0.87058823529999996" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="tintColor" red="0.86666666670000003" green="0.87058823529999996" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="247" id="fII-07-zLB"/>
+                                                    </constraints>
+                                                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="8" id="bNc-5n-Wwz">
+                                                        <size key="itemSize" width="151" height="151"/>
+                                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                    </collectionViewFlowLayout>
+                                                    <cells>
+                                                        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="GuoDouYouXuan" reuseIdentifier="GDYXCollectionCell" id="bYL-JB-Kqv" customClass="GDYXCollectionViewCell">
+                                                            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                                                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                                                <autoresizingMask key="autoresizingMask"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                            </view>
+                                                            <color key="backgroundColor" red="0.86666666670000003" green="0.87058823529999996" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <size key="customSize" width="150" height="150"/>
+                                                        </collectionViewCell>
+                                                    </cells>
+                                                    <variation key="default">
+                                                        <mask key="constraints">
+                                                            <exclude reference="fII-07-zLB"/>
+                                                        </mask>
+                                                    </variation>
+                                                </collectionView>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.86666666670000003" green="0.87058823529999996" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="tintColor" red="0.86666666670000003" green="0.87058823529999996" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="9M9-8J-xiO" secondAttribute="bottom" id="RoD-rr-Ua1"/>
+                                                <constraint firstAttribute="trailing" secondItem="9M9-8J-xiO" secondAttribute="trailing" constant="5" id="YH4-Rz-U4Y"/>
+                                                <constraint firstItem="9M9-8J-xiO" firstAttribute="top" secondItem="tN4-sv-Y15" secondAttribute="top" id="hsa-gf-BFl"/>
+                                                <constraint firstItem="9M9-8J-xiO" firstAttribute="leading" secondItem="tN4-sv-Y15" secondAttribute="leading" constant="5" id="wRB-8G-rEz"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
                         <connections>
                             <outlet property="dataSource" destination="K84-aF-3uq" id="SnQ-un-EUN"/>
                             <outlet property="delegate" destination="K84-aF-3uq" id="iTf-KE-PGM"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="a1o-kL-hPM"/>
+                    <navigationItem key="navigationItem" title="小吃包" id="a1o-kL-hPM"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
                 </tableViewController>
@@ -46,4 +246,12 @@
             <point key="canvasLocation" x="1271.5" y="167.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="fenjiexian" width="480" height="20"/>
+        <image name="vg_casual_snacks" width="231" height="220"/>
+        <image name="vg_fast_food_meat" width="236" height="236"/>
+        <image name="vg_headline" width="96" height="96"/>
+        <image name="vg_hotsell" width="194" height="268"/>
+        <image name="vg_roasting" width="377" height="148"/>
+    </resources>
 </document>

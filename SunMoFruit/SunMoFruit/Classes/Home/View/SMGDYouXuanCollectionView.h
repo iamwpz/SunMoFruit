@@ -11,5 +11,4 @@
 @interface SMGDYouXuanCollectionView : UICollectionView
 
 @property (strong, nonatomic) NSMutableArray *gdyxArrayM;
-
 @end

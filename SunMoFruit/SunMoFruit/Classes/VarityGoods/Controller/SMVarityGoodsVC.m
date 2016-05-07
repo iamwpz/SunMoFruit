@@ -16,7 +16,8 @@
     [super viewDidLoad];
 
 //    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"VGTopViewCellId"];
+//    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"VGTopViewCellId"];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -26,52 +27,22 @@
 
 #pragma mark - Table view data source
 
-// 返回多少组
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 1;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    if (section == 0) {
-        return 4;
-    }else {
-        return 0;
-
-    }
-}
 
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [[UITableViewCell alloc]init];
-    if (indexPath.row == 0) {
-        cell = [[[NSBundle mainBundle]loadNibNamed:@"VarityGoodsTopViewCell" owner:nil options:nil]firstObject];
-        
-    }else {
-        cell = [tableView dequeueReusableCellWithIdentifier: @"VGTopViewCellId"forIndexPath:indexPath];
-        
-        cell.textLabel.text = @"test";
-    }
-    
-        return cell;
-    
-}
 
 #pragma mark - Table view delegate methods
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (indexPath.section == 0) {
-        
+    
         if (indexPath.row == 0) {
-            return 190;
+            return 210;
         } else if (indexPath.row == 1) {
-            return 80;
+            return 50;
         } else if (indexPath.row == 2) {
-            return 100;
+            return 30;
         }else {
-            return 80;
+            return 800;
         }
-    }
-    return 0;
 }
 /*
 // Override to support conditional editing of the table view.

@@ -1,27 +1,24 @@
 //
-//  SMGDYouXuanCollectionView.m
+//  SMRoastingCollectionView.m
 //  SunMoFruit
 //
-//  Created by 猎人 on 16/1/17.
+//  Created by 猎人 on 16/5/7.
 //  Copyright © 2016年 hunter. All rights reserved.
 //
 
-#import "SMGDYouXuanCollectionView.h"
-#import "SMYouXuanModel.h"
-#import "GDYXCollectionViewCell.h"
+#import "SMRoastingCollectionView.h"
+#import "VarityGoodsCollectionCell.h"
 #import <MJExtension.h>
 #import <AFNetworking.h>
-#import "SMHomeVC.h"
+#import "SMVarityGoodsModel.h"
+#import "SMVarityGoodsVC.h"
 
-@class SMVarityGoodsVC;
 
-
-@interface SMGDYouXuanCollectionView ()<UICollectionViewDataSource,UICollectionViewDelegate>
+@interface SMRoastingCollectionView ()<UICollectionViewDataSource,UICollectionViewDelegate>
 
 @end
 
-@implementation SMGDYouXuanCollectionView
-
+@implementation SMRoastingCollectionView
 - (void)awakeFromNib {
     self.backgroundColor = [UIColor grayColor];
     
@@ -41,22 +38,20 @@
     // 从服务器请求果兜优选所有数据
     [self getDataFromServer];
     
-    // collectionView 添加 cell 需要注册一下 cell
-    [self registerClass:[GDYXCollectionViewCell class] forCellWithReuseIdentifier:@"GDYXCollectionViewCell"];
-
-}
-
+    [self registerClass:[VarityGoodsCollectionCell class] forCellWithReuseIdentifier:@"SMVarityGoodsRoastingID"];
+    
+  }
 // 从网络中请求果兜优选所有数据
 - (void)getDataFromServer{
     
-    NSString *urlString = @"http://lcoding.cn/GD/object.action?action=Preference";
+    NSString *urlString = @"http://lcoding.cn/GD/object.action?action=nutInfo";
     
     
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     [manager.responseSerializer setAcceptableContentTypes:[NSSet setWithObjects:@"text/html", nil]];
-
+    
     [manager GET:urlString parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        _gdyxArrayM = [SMYouXuanModel mj_objectArrayWithKeyValuesArray:responseObject context:nil];
+        _roastingArrayM = [SMVarityGoodsModel mj_objectArrayWithKeyValuesArray:responseObject context:nil];
         
         // 回到主线程更新UI
         dispatch_async(dispatch_get_main_queue(), ^{
@@ -75,24 +70,26 @@
 // 每组有多少行数据
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    NSLog(@"%ld",self.gdyxArrayM.count);
-    return self.gdyxArrayM.count;
+    NSLog(@"%ld",self.roastingArrayM.count);
+    return self.roastingArrayM.count;
 }
 
 // 每一个item
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    GDYXCollectionViewCell *cell = (GDYXCollectionViewCell *)[collectionView dequeueReusableCellWithReuseIdentifier:@"GDYXCollectionViewCell" forIndexPath:indexPath];
-    cell.gdyxModel = self.gdyxArrayM[indexPath.item];
+    VarityGoodsCollectionCell *cell = (VarityGoodsCollectionCell *)[collectionView dequeueReusableCellWithReuseIdentifier:@"SMVarityGoodsRoastingID" forIndexPath:indexPath];
+    cell.vgModel = self.roastingArrayM[indexPath.item];
     return cell;
 }
 
-#pragma mark - 懒加载
-- (NSMutableArray *)gdyxArrayM {
-    if (_gdyxArrayM == nil) {
-        _gdyxArrayM = [NSMutableArray array];
+
+
+// 懒加载
+- (NSMutableArray *)roastingArrayM {
+    if (_roastingArrayM == nil) {
+        _roastingArrayM = [NSMutableArray array];
     }
-    return _gdyxArrayM;
+    return _roastingArrayM;
 }
 @end
